@@ -23,7 +23,7 @@ function App() {
   return (
     <Container className="my-4">
       <ParticlesBg type="square" bg={true} />
-      <center><h1 className="mb-4">Get Jobs using GitHub Jobs API</h1></center>
+      <center><h1 className="mb-4">Browse Jobs served using GitHub Jobs API</h1></center>
       <SearchForm params={params} onParamChange={handleParamChange} />
       <JobsPagination page={page} setPage={setPage} hasNextPage={hasNextPage} />
       {loading && <h1>Loading...</h1>}
